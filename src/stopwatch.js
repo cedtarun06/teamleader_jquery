@@ -3,7 +3,6 @@ $(document).ready(function(){
 
 }
 const $timer = ('stopwatch');
-
 var $$hour = 0;
 var $$minute = 0;
 var $$second = 0;
@@ -57,6 +56,6 @@ function timerCycle() {
 }
 
 function resetTimer() {
-    // used to reset the timer
     timer.innerHTML = '00:00:00';
+    //reset timer
 }
